@@ -37,6 +37,8 @@ body{
       display: flex;
       justify-content: space-around;
       width: 100%;
+      align-items: center;
+      height: 100vh;
       #leftNav {
       display:flex;
       align-items: center;
@@ -53,7 +55,7 @@ body{
             height: 100%;
             width: 100%;
             resize: none;
-            box-shadow: 20px 30px 50px 10px black;
+            box-shadow: 5px 8px 16px 0px black;
           }
         }
       }
@@ -66,7 +68,7 @@ body{
           #preview {
           padding: 0 10px;
           height: 530px;
-          box-shadow: 40px 30px 60px 10px black;
+          box-shadow: 5px 8px 16px 0px black;
           background:#edededf0;
           overflow-y: auto;
             code {
@@ -89,6 +91,7 @@ body{
       #content {
         flex-direction: column;
         align-items: center;
+        height: unset;
         #leftNav {
           margin-top: 20px;
           margin-bottom: 60px;
